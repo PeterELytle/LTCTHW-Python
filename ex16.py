@@ -26,7 +26,7 @@ target = open(filename, 'w')
 print "Truncating the file. Goodbye!"
 # This line displays some text.
 target.truncate()
-# This line runs the truncate command, without parameters, on the "target" variable.
+# This line runs the truncate command (which empties the file), without parameters, on the "target" variable.
 
 print "Now I'm going to ask you for three lines."
 # This line displays some text.
